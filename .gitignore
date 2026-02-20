@@ -1,1 +1,60 @@
-(create_icons.py, icon128.png, icon16.png, icon48.png are source/config files and images - no build artifacts, dependencies, or temp files present)
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.js.map
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Package lock file
+package-lock.json
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
