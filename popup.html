@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 350px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #333;
+    }
+    
+    .cart-item {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    
+    .item-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .item-price {
+      color: #e63946;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .item-marketplace {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 5px;
+    }
+    
+    .item-link {
+      display: block;
+      color: #1d3557;
+      text-decoration: none;
+      font-size: 12px;
+      word-break: break-all;
+    }
+    
+    .empty-cart {
+      text-align: center;
+      color: #666;
+      font-style: italic;
+      padding: 20px 0;
+    }
+    
+    .clear-btn {
+      background-color: #e63946;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 15px;
+    }
+    
+    .clear-btn:hover {
+      background-color: #d90429;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ваша мульти-корзина</h1>
+  <div id="cart-items">Загрузка...</div>
+  <button id="clear-cart" class="clear-btn">Очистить корзину</button>
+  <script src="popup.js"></script>
+</body>
+</html>

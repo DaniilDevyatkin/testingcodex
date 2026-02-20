@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Multi-Marketplace Cart",
+  "version": "1.0",
+  "description": "Собирайте товары из разных маркетплейсов в одной виртуальной корзине",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Multi-Marketplace Cart"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.ozon.ru/*", "*://*.wildberries.ru/*", "*://*.market.yandex.ru/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
